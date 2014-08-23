@@ -15,14 +15,19 @@
 	<div class="topbody titleHeader">{{title}}</div>
 	<div class="topRight"></div>
 </div>
+<div id="dialog" title="Basic dialog"><p>Contenu</p></div>
+
 
 </body>
 <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="src/css/sma-ri.css" />
+<link rel="stylesheet" type="text/css" href="src/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="src/css/jquery-ui.theme.min.css" />
 <script src="components/angular/angular.js" type="text/javascript"></script>
 <script src="components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript"></script>
 <script src="components/angular-resource/angular-resource.min.js" type="text/javascript"></script>
+<script src="src/utils/jquery-ui.min.js" type="text/javascript"></script>
 <script src="src/EtatSinistreApp.js" type="text/javascript"></script>
 <script src="src/controllers/EtatSinistreController.js" type="text/javascript"></script>
 
