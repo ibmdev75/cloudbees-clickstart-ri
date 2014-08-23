@@ -12,4 +12,20 @@
 
   <url>http://maven.apache.org</url>
   
+  <build>
+        <pluginManagement>
+            <plugins>
+                
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${version.compiler.plugin}</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+               </plugins>
+          </pluginManagement>
+  </build>
+  
 </project>
