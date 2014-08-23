@@ -2,3 +2,9 @@ spri-ihm-web/target/
 spri-ihm-ear/target/
 spri-ihm-service/target/maven-archiver/pom.properties
 spri-ihm-service/target/spri-ihm-service-1.0.jar
+spri-ihm-web/node_modules/
+spri-ihm-web/src/main/webapp/components/
+.project
+.settings/
+*.classpath
+*.gitignore
