@@ -15,7 +15,16 @@
 	<div class="topbody titleHeader">{{title}}</div>
 	<div class="topRight"></div>
 </div>
-<div id="dialog" title="Basic dialog"><p>Contenu</p></div>
+
+
+<spri-filterfield
+dropdowninput-width="180"
+dropdowninput-height="25"
+window-height="300"
+window-width="250">
+ </spri-filterfield>
+
+
 
 
 </body>
@@ -30,6 +39,7 @@
 <script src="src/utils/jquery-ui.min.js" type="text/javascript"></script>
 <script src="src/EtatSinistreApp.js" type="text/javascript"></script>
 <script src="src/controllers/EtatSinistreController.js" type="text/javascript"></script>
+<script src="src/directive/SpriFilterField.js" type="text/javascript"></script>
 
 </html>
 

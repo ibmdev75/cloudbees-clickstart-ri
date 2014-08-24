@@ -1,0 +1,90 @@
+<div id="filterfieldContainer">
+<table style="border-collapse: collapse;margin-top: 30px;">
+<tr>
+<td>
+<input type="text" ng-style="dropdowninputStyle" class="dropdowninput"/>
+</td>
+<td>
+<button class="dropdownbutton" ng-click="launchPopup($event)"></button>
+</td>
+</tr>
+</table>
+<div id="filterfieldgrid"></div>
+</div>
+<style type="text/css">
+
+
+.ui-dialog .ui-dialog-title {
+float: left;
+margin: .1em 0;
+white-space: nowrap;
+width: 90%;
+overflow: hidden;
+text-overflow: ellipsis;
+display: none;
+}
+
+.ui-button-icon-only .ui-icon {
+left: 50%;
+margin-left: -8px;
+display: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: 1px solid #d3d3d3;
+background: #e6e6e6 50% 50% repeat-x;
+font-weight: normal;
+color: #555555;
+display: none;
+}
+
+.ui-dialog .ui-dialog-title {
+float: left;
+margin: .1em 0;
+white-space: nowrap;
+width: 90%;
+overflow: hidden;
+text-overflow: ellipsis;
+display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+padding: .4em 1em;
+position: relative;
+height: 20px;
+background-color: transparent;
+border-bottom-width: 1px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom-width: 1px;
+border-bottom-color: rgb(206, 195, 182);
+border-bottom-left-radius: 0em;
+border-bottom-right-radius: 0em;
+width: 80%;
+vertical-align: center;
+margin-left: 10%;
+}
+
+
+.dropdowninput {
+	border-color: black;
+	border-width: thin;
+}
+.dropdownbutton {
+background-image: url('/spri-ihm-web/src/assets/arrowUpRed.gif');
+background-color: #ffffff;
+background-repeat: no-repeat;
+background-position: center center;
+border-color: black;
+width: 20px;
+height: 25px;
+border-left: none;
+border-bottom-width: thin;
+border-top-width: thin;
+border-right-width: thin;
+margin-top: 2px;
+}
+
+</style>
+
