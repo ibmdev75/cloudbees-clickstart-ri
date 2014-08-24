@@ -1,17 +1,53 @@
 <div id="filterfieldContainer">
-<table style="border-collapse: collapse;margin-top: 30px;">
-<tr>
-<td>
-<input type="text" ng-style="dropdowninputStyle" class="dropdowninput"/>
-</td>
-<td>
-<button class="dropdownbutton" ng-click="launchPopup($event)"></button>
-</td>
-</tr>
-</table>
-<div id="filterfieldgrid"></div>
+	<div style="width: 15%">
+		<div class="input-group">
+    		<input type="text" class="form-control">
+        		<div class="input-group-btn">
+            		<button type="button" class="btn btn-default" ng-click="launchPopup($event)" data-toggle="dropdown" tabindex="-1">
+              		</button>
+         		</div>
+    	</div>
+	</div>
+	<div id="filterfieldgrid"></div>
 </div>
 <style type="text/css">
+
+
+
+
+.input-group .form-control {
+position: relative;
+z-index: 2;
+float: left;
+width: 100%;
+margin-bottom: 0;
+height: 25px;
+padding: 2px 10px;
+}
+
+.btn {
+display: inline-block;
+margin-bottom: 0;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: url('/spri-ihm-web/src/assets/arrowUpRed.gif') !important;
+background-color: #ffffff;
+background-repeat: no-repeat;
+background-position: center center;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 2px 10px;
+height:25px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
 
 
 .ui-dialog .ui-dialog-title {
@@ -67,23 +103,15 @@ margin-left: 10%;
 }
 
 
-.dropdowninput {
-	border-color: black;
-	border-width: thin;
-}
-.dropdownbutton {
-background-image: url('/spri-ihm-web/src/assets/arrowUpRed.gif');
-background-color: #ffffff;
-background-repeat: no-repeat;
-background-position: center center;
-border-color: black;
+.ui-dialog .ui-dialog-titlebar-close {
+position: absolute;
+right: .3em;
+top: 50%;
 width: 20px;
-height: 25px;
-border-left: none;
-border-bottom-width: thin;
-border-top-width: thin;
-border-right-width: thin;
-margin-top: 2px;
+margin: -10px 0 0 0;
+padding: 1px;
+height: 20px;
+display: none;
 }
 
 </style>

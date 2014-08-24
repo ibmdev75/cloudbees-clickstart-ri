@@ -4,7 +4,7 @@
 .ri_header {
 
 height: 25px;
-width: 80%;
+width: 77%;
 position: absolute;
 background-color: transparent;
 left: 20%;
@@ -60,7 +60,42 @@ top: -25px;
 
 
 
-/** Layout Footer **/
+/** Layout Test **/
+
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 20%;
+padding-right: 20%;
+}
+
+.topLeftTest {
+	
+	background-image: url("/spri-ihm-web/src/assets/nav_coin_bleu_haut_gauche.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 15px;
+	height: 25px;
+	border: none;
+	background-color: transparent;
+	margin-left: -15px;
+	position: relative;
+}
+.topRightTest {
+	
+	background-image: url("/spri-ihm-web/src/assets/nav_coin_bleu_haut_droit.gif");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 15px;
+	height: 25px;
+	padding: 0 !important;
+	border: none;
+	background-color: transparent;
+	position: absolute;
+	left: 78%;
+	top:0px;
+}
+
 
 
 
